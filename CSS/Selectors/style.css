@@ -1,0 +1,79 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+    background-color: red;
+}
+
+.para1{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+#item1{
+    background-color: purple;
+    color: yellow;
+    font-size: 20px;
+}
+
+#item2{
+    background-color: purple;
+    color: yellow;
+    font-size: 30px;
+}
+
+[id]{
+    text-align: center;
+    font-size: 40px;
+}
+
+[class="para2"]{
+    background-color: gold;
+    color: green;
+    font-size: 30px;
+}
+
+pre[class="para1"]{
+    background-color: rgb(81, 8, 8);
+    color: yellow;
+    font-size: 30px;
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+h3,h4,h5,h6{
+    background-color: navy;
+    color: gold;
+
+}
+
+[class^='n']{
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+}
+
+[class$='5']{
+    background-color: rgb(255, 21, 173);
+    color: rgb(255, 234, 0);
+    font-size: 30px;
+}
+
+[class*='z']{
+    background-color: rgb(81, 218, 39);
+    color: rgb(251, 255, 0);
+    font-size: 30px;
+}
+
+[class~='vali']{
+    background-color: rgb(255, 21, 21);
+    color: rgb(251, 255, 0);
+    font-size: 30px;
+}
+
+

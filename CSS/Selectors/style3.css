@@ -1,0 +1,123 @@
+.ulist{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    width:1300px;
+    height:300px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.ulist li{
+    background-color: bisque;
+    width:50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:black;
+}
+
+/* .ulist li:first-child{
+    background-color: chartreuse;
+} 
+
+.ulist li:last-child{
+    background-color: rgb(4, 4, 141);
+}
+
+.ulist li:nth-child(5){
+    background-color: darkgoldenrod;
+}
+
+.ulist li:nth-child(even){
+    background-color: chartreuse;
+}
+
+.ulist li:nth-child(odd){
+    background-color: aqua;
+}
+
+
+.ulist li:nth-of-type(even){
+    background-color: darkgreen;
+}
+
+.ulist li:nth-of-type(odd){
+    background-color: chartreuse;
+}
+
+.ulist li:nth-last-child(even){
+    background-color: chartreuse;
+}
+
+.ulist li:nth-last-child(odd){
+    background-color: rgb(230, 21, 118);
+}
+
+
+.ulist li:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.ulist li:nth-last-of-type(even){
+    background-color: chartreuse;
+}
+
+.ulist li:nth-last-child(odd){
+    background-color: chartreuse;
+}
+
+.ulist li:nth-child(even){
+    background-color: chartreuse;
+}
+*/
+
+
+
+
+
+.ulist li:last-child{
+    background-color: rgb(4, 4, 141);
+}
+
+
+
+h1>a:link{
+    color: rgb(88, 110, 88);
+    text-decoration: none;
+}
+
+ h1>a:hover{
+    color: rgb(131, 15, 111);
+}
+
+h1>a:active{
+    color: rgb(255, 179, 0);
+}
+
+ h1>a:visited{
+    color: rgb(0, 102, 139);
+} 
+/*
+
+h2:hover::before{
+    content:"Nabeesagari"
+}
+
+h2:hover::after{
+    content:"Basha"
+}
+
+p::first-line{
+    color: red;
+    font-size: 50px;
+}
+
+p::first-letter{
+    color: blue;
+} */

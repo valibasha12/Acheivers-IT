@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form4</title>
+</head>
+<body>
+    <style>
+        h2{
+            color: rgb(107, 18, 190);
+        }
+        .button{
+            background-color: rgb(173, 206, 227);
+            border-color: blue;
+        }
+        .inputs{
+            margin-left: 100px;
+            background-color: rgb(135, 207, 255);
+            border-color: rgb(29, 28, 28);
+            width: 100%;
+        }
+        .lables{
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .personal{
+            border: 2px;
+            border-style: dotted;
+            border-color:rgb(135, 207, 255) ;
+        }
+        .address{
+            border: 2px;
+            border-style: dotted;
+            border-color:rgb(135, 207, 255) ;
+        }
+    </style>
+    <h1>User Registration Form</h1>
+    <form action="#">
+        <div class="personal">
+            <h2>Personal Information</h2>
+        <table>
+            <tr>
+                <td> <label for="Name" class="lables">Name:</label></td>
+                <td><input type="text" id="Name" class="inputs"><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="Email" class="lables">Email Address:</label></td>
+                <td><input type="text" id="Email" class="inputs"><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="password" class="lables">Password:</label></td>
+                <td> <input type="text" id="password" class="inputs"><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="confirm password" class="lables">Confirm Password:</label></td>
+                <td><input type="text" id="confirm password" class="inputs"><br><br><br>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <br><br><br>
+        <div class="address">
+            <h2>Address Details</h2>
+            <table>
+                <tr>
+                    <td><label for="add1" class="lables">Address line one:</label></td>
+                    <td><input type="text" id="add1" class="inputs"><br><br></td>
+                </tr>
+                <tr>
+                    <td><label for="add2" class="lables">Address line two:</label></td>
+                    <td><input type="text" id="add2" class="inputs"><br><br></td>
+                </tr>
+                <tr>
+                    <td><label for="town" class="lables">Town / City:</label></td>
+                    <td><input type="text" id="town" class="inputs"><br><br></td>
+                </tr>
+                <tr>
+                    <td><label for="postalcode" class="lables">Zip / Post code:</label></td>
+                    <td><input type="text" id="postalcode" class="inputs"><br><br><br></td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <input type="submit" value="Sign Up" class="button">
+        
+
+        
+    </form>
+    
+</body>
+</html>

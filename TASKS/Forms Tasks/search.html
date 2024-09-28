@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Search Input</title>
+  <style>
+    .search-container {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    /* Hide the checkbox */
+    .toggle-input {
+      display: none;
+    }
+
+    
+
+
+    /* Style the search input */
+    .search-input {
+      display: none;
+      padding: 8px;
+      margin-left: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    /* Show the search input when the checkbox is checked */
+    .toggle-input:checked + label + .search-input {
+      display: block;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div class="search-container">
+    <input type="checkbox" class="toggle-input" id="searchToggle">
+     <input type="text" class="search-input" placeholder="Search for product">
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+.Festivalcard{
+    background-color: rgb(255, 195, 55);
+    width:400px;
+    height: 400px;
+    margin: 10px;
+    
+}
+.Festivalcard img{
+    width:380px;
+    height:200px;
+    margin: 10px;
+    border-color: red;
+    border-radius: 10px;
+}
+button{
+    margin-left: 160px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 6px;
+    
+}
+.Festivals{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}

@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.navbarSection{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.aitLogo{
+    width: 180px;
+    height: 60px;
+}
+.navList{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navList a{
+    text-decoration: none;
+    color: black;
+    padding:10px 40px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbarIcons{
+    margin-left: 200px;
+}
+.navbarIcons i{
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.searchIcon{
+    background-color: rgb(235, 237, 237);
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 5px;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+}
+.navbarButton{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.contentSection{
+    margin-top: 10px;
+    background-color:rgb(235,236,236);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:30px 20px;
+}
+.card1{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+.card1Image{
+    border-radius: 10px;
+    width:650px;
+    height: 300px;
+    align-items: center;
+    margin: 12px 12px 10px 12px;
+}
+.card1Button{
+    background-color: rgb(219, 207, 225);
+    border-style: none;
+    color: purple;
+    padding: 10px ;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80px;
+}
+.card1-details{
+    margin: 30px 20px;
+    width: 50%;
+}
+.author{
+    display: flex;
+    margin: 10px 5px;
+}
+.authorImage{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.card1-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.card1-description{
+    margin: 8px 0px;
+    font-size: 18px;
+}
+.authorDob{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.card23-section{
+    display: flex;
+    flex-direction: row;
+    margin:0px 40px ;
+}
+.card2,.card3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width:50%;
+    border-radius: 10px;
+    margin: 15px;
+}
+.card2Image,.card3Image{
+    width: 250px;
+    height: 180px;
+    margin: 10px 10px 4px 10px;
+    border-radius: 10px;
+}
+.card2Button{
+    background-color: rgb(207, 205, 205);
+    color: rgb(21, 62, 244);
+    border-radius: 20px;
+    margin: 15px 0px;
+    padding: 8px;
+    border-style: none;
+}
+.card2Heading,.card3Heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card2Description,.card3Description{
+    margin: 8px 0px;
+}
+.card2-details,.card3-details{
+    margin: 0px 15px;
+    width: 50%;
+}
+.card3Button{
+    background-color: rgb(194, 227, 183);
+    color: rgb(9, 84, 42);
+    border-radius: 20px;
+    margin: 15px 0px;
+    padding: 8px;
+    border-style: none;
+}
+
+.BrowseByCategorySection{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.categoryyTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+.categoryDescription{
+    margin:5px 0px 30px 0px;
+    font-size: 20px;
+}
+.categoryButtons{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+
+}
+
+.categorybtn{
+    border-radius: 100px;
+    border-style: none;
+    padding: 10px 15px;
+    margin:0px 10px;
+    border: 1px solid grey;
+}
+.allButton{
+    background-color: black;
+    color: white;
+}
+
+.articleSection{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.articleHeading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 15px;
+    font-size: 25px;
+}
+.article1,.article2,.article3,.article4,.article5,.article6{
+    width: 430px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 20px;
+}
+.articleImage{
+    width: 430px;
+    border-radius: 8px;
+}
+.articleDescription{
+    font-size: 16px;
+    margin: 15px;
+    font-size: 15px;
+}
+.articleAuthor{
+    display: flex;
+    margin-bottom: 5px;
+}
+.articleAuthorImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.articleAuthorDetails{
+    margin: 20px 5px;
+    font-size: 15px;
+}
+.articleButton{
+    border-style: none;
+    border-radius: 30px;
+    background-color: rgb(202, 202, 209);
+    color: blue;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 30px;
+}
+.articleButtonsection{
+    text-align: center;
+}
+.artticle5btn,.article6btn{
+    background-color: rgb(165, 212, 165);
+    color: rgb(6, 65, 6);
+}
+.browserButton{
+    margin: 15px 15px 50px 15px;
+    border-style: none;
+    width: 150px;
+    padding: 10px;
+    background:none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.buttonSection{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.authorsSections{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;
+    
+}
+.authorSection-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.allAuthors{
+    font-size: 18px;
+    margin-top: 10px;
+}
+hr{
+    margin: 20px 80px;
+}
+.topauthorImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.topAuthorsSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.topAuthor1,.topAuthor2,.topAuthor3{
+    display: flex;
+    background-color: rgb(235, 236, 236);
+    width: 450px;
+    border-radius:15px;
+    margin: 30px 10px 60px 10px;
+}
+.topAuthor-details{
+    margin: 20px;
+    padding: 5px;
+}
+.authorName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.authorDescript{
+    font-size: 18px;
+}
+.posts{
+    padding: 10px 0px 7px 0px;
+}
+.subscriberMenu{
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+.subscribeSection{
+    background-color: rgb(235, 236, 236);
+    padding: 25px 70px;
+}
+.subscriber-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subscriber-description{
+    margin: 5px 0px;
+    font-size: 16px;
+}
+.email{
+    border: 1px solid rgb(192, 191, 191);
+    width: 400px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 350px;
+}
+.subscribeButton{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width:120px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+.footerSection{
+    display: flex;
+    padding: 20px;
+}
+.footerDescription{
+    margin-left: 50px;
+}
+.footerIcons{
+    margin-left: 300px;
+}
+.footerIcons i{
+   padding: 5px;
+}
+.footerItemsList{
+    margin-left: 300px;
+    list-style: none;
+    display: flex;
+}
+.footerItems ul li{
+   padding: 0px 10px;
+
+}
+.footerLastIcon{
+    margin-left: 40px;
+    font-size: 25px;
+}

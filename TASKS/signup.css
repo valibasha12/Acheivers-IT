@@ -1,0 +1,59 @@
+
+.signupCard{
+    width: 400px;
+    background-color: rgb(69, 69, 194);
+    text-align: center;
+    margin: 90px 550px;
+}
+.signupCard:hover{
+    transform: scale(1.2);
+}
+.inputs{
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputs:hover{
+    transform: scale(1.2);
+}
+.checkbox{
+    padding-right: 10px;
+}
+.checkbox:hover{
+    transform: scale(2);
+}
+p{
+    color: white;
+    margin-left:-100px;
+}
+h1{
+    color: white;
+    padding-top: 70px;
+}
+button{
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 80%;
+}
+button:hover{
+    transform: scale(1.2);
+}
+h2{
+    color: white;
+}
+.close{
+    border: none;
+    border-radius: 6px;
+    padding: 10px 10px;
+    width: 30%;
+    margin-bottom: 50px;
+    transform: 1s ease;
+}
+.close:hover{
+    transform: translateX(200px);
+}

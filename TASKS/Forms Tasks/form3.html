@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form3</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(182, 211, 241);
+        }
+        h2{
+            margin-top: 30px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        hr{
+            background: white;
+            height: 2px;
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-bottom: 20px;
+        }
+        .ips{
+            padding: 8px;
+            width:85%;
+            margin-left: 90px;
+        }
+        .lables{
+            margin-left: 90px;
+        }
+        .button{
+            text-align: center;
+            background-color: rgb(70, 201, 70);
+            color: white;
+            margin-left:90px;
+            border-style: none;
+            width:86% ;
+            padding: 10px;
+
+        }
+        .rd{
+            margin-left: 90px;
+        }
+        .personalData{
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+    <form action="#">
+        <h2>Student Registration Form</h2>
+    <hr>
+    <label for="Firstname" class="lables">Firstname</label><br>
+    <input type="text" id="Firstname" placeholder="Firstname" class="ips">
+    <br><br>
+    <label for="Middlename" class="lables">Middlename:</label><br>
+    <input type="text" id="Middlename" placeholder="Middlename" class="ips">
+    <br><br>
+    <label for="Lastname" class="lables">Lastname:</label><br>
+    <input type="text" id="Lastname" placeholder="Lastname" class="ips">
+    <br><br>
+    <label for="Course" class="lables">Course:</label>
+    <select name="Course" id="Course">
+        <option value="course">Course</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value=".net">.net</option>
+    </select>
+    <br><br>
+    <label for="gender" class="lables">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" class="rd">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+    
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br><br>
+    <label for="telephone" class="lables">Phone:</label><br>
+    <input type="text" value="+91" class="ips"><br><br>
+    <input type="tel" id="telephone" placeholder="phone no" class="ips">
+    <br><br>
+    <label for="Adress" class="lables">Current Address:</label><br>
+    <textarea name="address" id="Address" rows="5" col="100" placeholder="Current Address" class="ips"></textarea>
+    <br><br>
+    <label for="email" class="lables personalData">Email:</label><br>
+    <input type="email" id="email" placeholder="Enter Email" class="ips">
+    <br><br>
+    <label for="password" class="lables personalData">Password:</label><br>
+    <input type="password" id="password" placeholder="Enter Password" class="ips">
+    <br><br>
+    <label for="re type password" class="lables personalData">Re-type Password:</label><br>
+    <input type="password" id="re type password" placeholder="Retype Password" class="ips">
+    <br><br>
+    <input type="submit" value="Register" class="button">
+    </form>
+    
+</body>
+</html>

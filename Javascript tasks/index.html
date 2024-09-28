@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num1"><br><br>
+    <input type="number" id="num2"><br><br>
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Sub</button>
+    <button onclick="mul()">Mul</button>
+    <button onclick="div()">Div</button>
+    <hr>
+    <label id="mathCalculations">ANSWER:</label>
+   <script>
+    function add(){
+        mathCalculations.innerHTML=Number(num1.value)+Number(num2.value)
+    }
+    function sub(){
+        mathCalculations.innerHTML=Number(num1.value)-Number(num2.value)
+    }
+    function mul(){
+        mathCalculations.innerHTML=Number(num1.value)*Number(num2.value)
+    }
+    function div(){
+        mathCalculations.innerHTML=Number(num1.value)/Number(num2.value)
+    }
+   </script> 
+</body>
+</html>

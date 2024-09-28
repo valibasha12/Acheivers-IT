@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.foodContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.foodContainer1:hover{
+    transform: scale(1.5);
+    margin: 40px;
+}
+.foodContainer2:hover{
+    transform: scale(1.5);
+    margin: 40px;
+}
+.container{
+    background-color: greenyellow;
+    width: 300px;
+    margin: 10px 10px;
+}
+img{
+    width: 300px;
+    padding: 10px;
+    border-radius: 16px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin: 10px;
+}
+h2{
+    color: red;
+    margin: 10px;
+}
+p{
+    margin: 5px;
+}
+button{
+    margin: 10px;
+    border-style: none;
+    padding: 5px 10px;
+    background-color: rgb(27, 70, 7);
+    color: white;
+    border-radius: 8px;
+}

@@ -1,0 +1,44 @@
+div{
+    width:100px;
+    height: 100px;
+}
+
+.static{
+    background-color: red;
+    position: static;
+    top: 100px;
+}
+
+.relative{
+    background-color: blue;
+    position: relative;
+    left: 200px;
+    top: 2000px;
+    
+}
+
+.absolute{
+    background-color: chartreuse;
+    position: absolute;
+    top:80px;
+    left:20px;
+}
+
+.fixed{
+    background-color: darkmagenta;
+    position: fixed;
+    top:100px;
+   
+}
+
+.sticky{
+    background-color: rgb(13, 222, 191);
+    top:150px;
+}
+
+/* .abs{
+    position: relative;
+    height: 500px;
+    width:100px;
+    border: 2px solid black;
+} */

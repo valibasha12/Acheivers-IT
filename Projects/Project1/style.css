@@ -1,0 +1,657 @@
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    object-fit: cover;
+}
+::-webkit-scrollbar { display: none; }
+.top-line{
+    text-align: center;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(232, 238, 238);
+    padding: 10px;
+}
+
+.logoImage{
+    width:90px;
+    height:90px;
+}
+.navUlist{
+    display: flex;
+    list-style: none;
+}
+
+.search-bar i{
+    background-color:rgb(245, 246, 246);
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    margin-top: 30px;
+}
+
+.search-bar input[type="text"]{
+    color: hsl(252,30%,95%);
+    background: transparent;
+    width:15vw;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    border-style: none;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    background-color: white;
+    height: 70px;
+}
+.icons{
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.icons i{
+    padding: 15 px;
+}
+
+.banner1{
+    background-color: rgb(225, 237, 255);
+    display: flex;
+}
+
+.bannerButton{  
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 130px;
+    padding: 6px;
+    border-style: none;
+
+}
+
+.banner1Image{
+    width: 700px;
+    height: 600px;
+    margin-right: 40px;
+}
+
+.bannaerInfo{
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 50%;
+}
+
+.bannerHead{
+    font-family: "Open Sans", sans-serif;
+    font-size: 85px;
+    margin-top: 40px;
+    font-weight:350;
+    margin-bottom: 0;
+}
+
+.banner-heading{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 80px;
+    font-weight:700;
+    
+    margin-top: 0;
+
+}
+
+.bannerCaption{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.bannerPrice{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.prodTitle{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.prodTitle2{
+    font-family: "Open Sans", sans-serif;
+    font-weight:700;
+}
+
+.prodButton{
+    color: blue;
+    font-size: 10px;
+    margin-left: 1200px;
+    margin-top: 0;
+}
+
+.productcard-container{
+    display: flex;
+}
+
+.productCard{
+    width: 335px;
+    height: 520px;
+    background-color: rgb(233, 234, 234);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.prodImage{
+    width:335px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.productButton{
+    background-color: rgb(243, 188, 52);
+    font-family:"Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    width:250px;
+    margin-left: 40px;
+    position: relative;
+    top: -40px;
+    height: 25px;
+
+}
+
+.prod-heading{
+    font-family:"Open Sans", sans-serif ; 
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.amount{
+    font-family:"Open Sans", sans-serif ; 
+    font-weight: 700;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.amountCancel{
+    font-size: 12px;
+    color: rgb(172, 169, 169);
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.offerTag{
+    color: rgb(29, 148, 29);
+    font-size: 12px;
+}
+
+.addToCartButton{
+    background-color: black;
+    color: white;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 500;
+    width:300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+.availableButtton{
+    background-color: black;
+    color: white;
+    font-family:"Open Sans", sans-serif ;
+    position:relative;
+    top: -340px;
+    border-style: none;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.banner2{
+    background-color: antiquewhite;
+    display: flex;
+}
+
+
+
+.ban2Head{
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px;
+    margin-top: 250px;
+    font-weight:350;
+    margin-left: 100px;
+}
+
+.ban2Heading{
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px;
+    margin-top: 200px;
+    font-weight:700;
+}
+.ban2Description{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    margin-left: 400px;
+}
+
+.ban2Price{
+    font-weight: 600;
+}
+
+.ban2Button{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 130px;
+    padding: 6px;
+    border-style: none;
+    margin-left: 520px;
+    margin-top: 20px;
+    margin-left:600px;
+}
+
+.ban2Image{
+    width:700px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ban2ProductContainer{
+    display: flex;
+}
+.ban2Prod1{
+    width: 335px;
+    height: 520px;
+    background-color: rgb(233, 234, 234);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.ban2-prodImage{
+    width:335px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-family:"Open Sans", sans-serif ;
+    position:relative;
+    top: -340px;
+    border-style: none;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ban2-productButton{
+    background-color: rgb(243, 188, 52);
+    font-family:"Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    width:250px;
+    margin-left: 40px;
+    position: relative;
+    top: -40px;
+    height: 25px;
+}
+.ban2-prod-heading{
+    font-family:"Open Sans", sans-serif ; 
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+.ban2-amount{
+    font-family:"Open Sans", sans-serif ; 
+    font-weight: 700;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.ban2-amountCancel{
+    font-size: 12px;
+    color: rgb(172, 169, 169);
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.ban2-productButton3{
+    background-color: rgb(243, 188, 52);
+    font-family:"Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    width:250px;
+    margin-left: 40px;
+    position: relative;
+    top: -15px;
+    height: 25px;
+}
+
+.ban2-prod-heading3{
+    font-family:"Open Sans", sans-serif ; 
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+
+.banner3{
+    display: flex;
+    background-color: rgb(237, 237, 240);
+}
+.ban3Image{
+    width:720px;
+    height: 720px;
+    margin-right:-50px;
+}
+.ban3Info{
+    width: 50%;
+    margin-left: 40px;
+}
+.banner3-heading{
+    font-family: "Open Sans", sans-serif;
+    font-size: 80px;
+    margin-top: 280px;
+    font-weight:700;
+}
+.banner3Caption{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 350;
+    font-size: 30px;
+}
+
+.banner3Price{
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+.banner3Button{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 130px;
+    padding: 6px;
+    border-style: none;
+    margin-top: 25px;
+}
+
+.ban3Products{
+    display: flex;
+}
+
+.banner4{
+    display: flex;
+    background-color: rgb(193, 221, 231);
+}
+.ban4Image{
+    width:600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ban4Head{
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px;
+    margin-top: 200px;
+    font-weight:700;
+    margin-left: 250px;
+}
+.ban4Description{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    margin-left: 470px;
+}
+.ban4Price{
+    font-weight: 600;
+}
+.ban4Button{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 130px;
+    padding: 6px;
+    border-style: none;
+    margin-top: 20px;
+    margin-left:680px;
+}
+.ban4-productCard1{
+    margin-top: 25px;
+}
+
+.banner5{
+    display:flex;
+    background-color:  rgb(237, 237, 240);
+}
+
+.ban5Image{
+    width:500px;
+    margin-left: 200px;
+}
+.banner5-heading{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 40px;
+    margin-top: 120px;
+    font-size:90px;
+    font-weight:350;
+}
+.banner5-head{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+.banner5Caption{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 350;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.banner5Price{
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+.banner5Button{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 130px;
+    padding: 6px;
+    border-style: none;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.productButton-ban5{
+    background-color: rgb(243, 188, 52);
+    font-family:"Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    width:250px;
+    margin-left: 40px;
+    position: relative;
+    top: -20px;
+    height: 25px;
+}
+.ban5-prod3{
+    margin-top: 25px;
+}
+.banner6{
+    display: flex;
+    background-color: rgb(255, 245, 234);
+}
+.ban6Image{
+    width:600px;
+    margin-left: 20px;
+    transform: rotate(120);
+}
+.ban6Head{
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px;
+    margin-top: 200px;
+    font-weight:350;
+    margin-left: 150px;
+}
+
+.banner6{
+    display: flex;
+    background-color: rgb(220, 215, 220);
+}
+.banner6-heading{
+    font-family: "Open Sans", sans-serif;
+    font-size: 80px;
+    margin-top: 200px;
+    font-weight:700;
+   
+}
+.ban6Image{
+    width:700px;
+    height: 600px;
+    margin-right:-50px;
+}
+.ban6Info{
+    margin-left: 40px;
+    width: 50%;
+}
+.footer3{
+    background-color: rgb(234, 241, 252);
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.last  p{
+    margin-top: 15px;
+}
+.footer-icons{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+.footerHeading{
+    margin-top: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.socialMedia-Icon{
+    margin-top: 35px;
+}
+.footer3-description1{
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.dot{
+    font-size: 30px;
+}
+.footer3-description2{
+    color: rgb(170, 168, 168);
+    margin-bottom: 20px;
+    font-family:  "Open Sans", sans-serif;
+    font-size: 12px;
+}
+.footer3-description3{
+    font-family:  "Open Sans", sans-serif;
+    font-size: 12px;
+    color: rgb(170, 168, 168);
+}
+.footer3-description4{
+    font-family:  "Open Sans", sans-serif;
+    font-size: 12px;
+    color: rgb(170, 168, 168);
+    padding-bottom: 15px;
+    
+}
+.footer1{
+    display: flex;
+    background-color: rgb(234, 241, 252);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.logoSection{
+    margin-left: 50px;
+    width: 30%;
+    margin-top: 50px;
+}
+.footer1-description{
+    font-family: "Open Sans", sans-serif ;
+    margin-top: 10px;
+}
+.emailButton{
+    width: 90%;
+    height: 45px;
+    border-style: none;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.companyInfo{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+div ul li{
+
+    list-style: none;
+    padding: 8px;
+    font-family:  "Open Sans", sans-serif;
+    font-size: 12px;
+}
+.footer1-Heading{
+    padding: 8px;
+    font-family:  "Open Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.noHeading{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.help{
+    margin-left: 120px;
+    margin-top: -10px;
+}
+.company{
+    margin-left: 150px;
+    margin-top: -10px;
+}
+.companyItems li{
+    padding: 10px;
+}
+.logoImage{
+    margin-left: 40px;
+}
+.navUlist{
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.navUlist a li{
+    font-size: 17px;
+    color: rgb(86, 86, 86);
+    border:15px;
+}
+.navUlist a{
+    text-decoration: none;
+}
+
+
